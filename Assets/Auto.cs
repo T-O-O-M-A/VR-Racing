@@ -27,7 +27,7 @@ public class Auto : MonoBehaviour {
         else
         {
             lz.motorTorque = pz.motorTorque = 0;
-            Debug.Log("b" +(lz.brakeTorque = pz.brakeTorque = -vykon * Input.GetAxis(osaPlynuABrzdy)).ToString());
+            Debug.Log("b" +(lz.brakeTorque = pz.brakeTorque = -vykon*5 * Input.GetAxis(osaPlynuABrzdy)).ToString());
         }
 	}
 }
